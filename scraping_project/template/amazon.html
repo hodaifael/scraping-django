@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>nom</th>
+        <th>prix</th>
+    <tr>
+    {% for obj in list %}
+    <tr>
+        <td>{{ obj.nom }}</td>
+        <td>{{ obj.prix }}</td>
+    <tr>
+    {% endfor %}  
+</table>
